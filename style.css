@@ -1,0 +1,26 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    background-color: #444444;
+    font-family: robota;
+    color: white;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
